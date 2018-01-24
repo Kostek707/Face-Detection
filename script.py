@@ -75,7 +75,7 @@ for i in times:
 
 #Turns seconds into hours
 FullTime=FullTime*(1/3600)
-#Saves data in Time.csv and shows a bar chart
+#Saves data in Time.csv
 Days=df['Day'].values.tolist()
 Time=df['Time'].values.tolist()
 try:
@@ -99,7 +99,7 @@ except:
 df=pandas.read_csv("Time.csv")
 Days=df['Day'].values.tolist()
 Time=df['Time'].values.tolist()
-
+#Shows a bar chart
 plt.bar(Days,Time)
 plt.xlabel("Day")
 plt.ylabel("Hours")
