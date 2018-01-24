@@ -10,6 +10,7 @@ Required python libraries:
 * OpenCV
 
 To start the program enter the following command in the terminal:
+
 python script.py
 
 The window showing the image from the webcam will be displayed. If the program detects a face, it draws a green rectangle around it. The time while the face is present is counted and then saved in the Time.csv file. 
